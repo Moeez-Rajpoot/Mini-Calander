@@ -1,0 +1,136 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: linear-gradient(rgba(6, 6, 117, 0.851) ,black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+
+    height: 40vh;
+    width: 50vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+#right{
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vh;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    border-top-right-radius: 10px;
+    
+   
+    
+}
+#left{
+
+    border-top-left-radius: 8px;
+    
+    width: 30vh;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#left #date{
+
+    font-size: 7rem;
+}
+
+#left #day{
+
+    font-size: 1.5rem;
+}
+
+#right #month{
+
+    font-size: 2rem;
+}
+
+#right #year{
+
+    font-size: 1.5rem;
+}
+
+#time {
+
+    width: 50vh;
+    display: flex;
+    gap: 2px;
+    height: 60px;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    column-gap: 10px;
+
+}
+
+.next{
+
+    border-bottom-left-radius: 8px;
+    background-color: orangered;
+    width: 30vh;
+    display: flex;
+    
+
+
+}
+#time .next #p{
+    font-size: 1.2rem;
+    margin-left: 32%;
+    color: white;
+}
+
+
+
+#time #ho{
+
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    color: orangered;
+
+    font-weight: bold;    
+}
+#time #mi{
+
+    display: flex;
+    flex-direction: column;
+    color: orangered;
+    font-weight: bold;    
+}
+#time #se{
+
+    display: flex;
+    flex-direction: column;
+    color: orangered;
+    font-weight: bold;    
+}
+
+span{
+
+    margin-left: 2px;
+    color: rgb(5, 6, 113);
+}
+
+
